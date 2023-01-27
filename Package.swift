@@ -14,8 +14,8 @@ let package = Package(
                     targets: ["ScanQrKit"]),
         ],
         dependencies: [
-            .package(url: "https://github.com/horizontalsystems/ComponentKit.Swift.git", .upToNextMajor(from: "1.0.0")),
-            .package(url: "https://github.com/horizontalsystems/ThemeKit.Swift.git", .upToNextMajor(from: "1.0.0")),
+            .package(url: "https://github.com/LuboDev/ComponentKit.Swift.git", .upToNextMajor(from: "1.0.0")),
+            .package(url: "https://github.com/LuboDev/ThemeKit.Swift.git", .upToNextMajor(from: "1.0.0")),
         ],
         targets: [
             .target(
